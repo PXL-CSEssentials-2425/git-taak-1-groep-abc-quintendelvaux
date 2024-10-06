@@ -7,8 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="LightGray">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         <TextBlock HorizontalAlignment="Left" Height="28" Margin="63,28,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Width="108"/>
-        <Image HorizontalAlignment="Left" Height="101" Margin="690,10,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
+        <Image HorizontalAlignment="Left" Height="101" Margin="686,10,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
+        <Image x:Name="redImage" HorizontalAlignment="Left" Height="81" Margin="171,110,0,0" VerticalAlignment="Top" Width="122" Source="/Rood.png" MouseEnter="redImage_MouseEnter"  />
+        <Image x:Name="blueImage" HorizontalAlignment="Left" Height="81" Margin="336,217,0,0" VerticalAlignment="Top" Width="121" Source="/Blauw.png" MouseEnter="blueImage_MouseEnter"/>
+        <Image x:Name="yellowImage" HorizontalAlignment="Left" Height="81" Margin="336,110,0,0" VerticalAlignment="Top" Width="121" Source="/Geel.png" MouseEnter="yellowImage_MouseEnter"/>
+        <Image x:Name="greenImage" HorizontalAlignment="Left" Height="80" Margin="171,217,0,0" VerticalAlignment="Top" Width="122" Source="/Groen.png" MouseEnter="greenImage_MouseEnter"/>
 
 
     </Grid>
