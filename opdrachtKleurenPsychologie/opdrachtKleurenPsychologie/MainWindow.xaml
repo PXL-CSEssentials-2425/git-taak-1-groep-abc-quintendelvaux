@@ -8,6 +8,8 @@
         Title="MainWindow" Height="450" Width="800" Background="LightGray">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Height="28" Margin="63,28,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Width="108"/>
+        <Image HorizontalAlignment="Left" Height="101" Margin="690,10,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
+
 
     </Grid>
 </Window>
