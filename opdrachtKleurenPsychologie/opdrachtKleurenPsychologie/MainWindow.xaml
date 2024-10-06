@@ -17,7 +17,9 @@
         <Image x:Name="yellowImage" HorizontalAlignment="Left" Height="81" Margin="336,110,0,0" VerticalAlignment="Top" Width="121" Source="/Geel.png" MouseEnter="yellowImage_MouseEnter" MouseLeftButtonDown="yellowImage_MouseLeftButtonDown"/>
         <Image x:Name="greenImage" HorizontalAlignment="Left" Height="80" Margin="171,217,0,0" VerticalAlignment="Top" Width="122" Source="/Groen.png" MouseEnter="greenImage_MouseEnter" MouseLeftButtonDown="greenImage_MouseLeftButtonDown"/>
         <TextBlock HorizontalAlignment="Left" Height="28" Margin="142,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"><Run Language="nl-be" Text="Kleurcode:"/></TextBlock>
-        <TextBox x:Name="collorcodeTextbox" HorizontalAlignment="Left" Height="28" Margin="211,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="collorcodeTextbox" HorizontalAlignment="Left" Height="28" Margin="211,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <TextBlock HorizontalAlignment="Left" Height="28" Margin="142,357,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"><Run Text="Informatie"/><Run Language="nl-be" Text=":"/></TextBlock>
+        <TextBox x:Name="infoTextbox" HorizontalAlignment="Left" Height="28" Margin="211,356,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
 
 
     </Grid>

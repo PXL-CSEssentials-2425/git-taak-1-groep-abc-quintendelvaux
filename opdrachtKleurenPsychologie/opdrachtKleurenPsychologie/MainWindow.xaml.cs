@@ -45,21 +45,25 @@ namespace opdrachtKleurenPsychologie
         private void redImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             collorcodeTextbox.Text = "#FF0000";
+            infoTextbox.Text = "Rood is de kleur van warmte";
         }
 
         private void yellowImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             collorcodeTextbox.Text = "#FFFF00";
+            infoTextbox.Text = "Geel is de kleur van levenslust";
         }
 
         private void blueImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             collorcodeTextbox.Text = "#0000FF";
+            infoTextbox.Text = "Blauw is de kleur van intelligentie";
         }
 
         private void greenImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             collorcodeTextbox.Text = "#008000";
+            infoTextbox.Text = "Groen is de kleur van genezing";
         }
     }
     
