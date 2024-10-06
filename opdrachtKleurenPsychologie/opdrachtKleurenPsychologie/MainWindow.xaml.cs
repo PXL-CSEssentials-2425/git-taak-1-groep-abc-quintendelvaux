@@ -41,6 +41,26 @@ namespace opdrachtKleurenPsychologie
         {
             this.Background = new SolidColorBrush(Colors.Blue);
         }
+
+        private void redImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            collorcodeTextbox.Text = "#FF0000";
+        }
+
+        private void yellowImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            collorcodeTextbox.Text = "#FFFF00";
+        }
+
+        private void blueImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            collorcodeTextbox.Text = "#0000FF";
+        }
+
+        private void greenImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            collorcodeTextbox.Text = "#008000";
+        }
     }
     
 }
